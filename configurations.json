@@ -1,0 +1,10 @@
+{
+  "google_analytics_key": "UA-YOURKEYHERE-13",
+  "template": "under_construction",
+  "docroot": "/home/evilinsu/public_html",
+  "path": "/usr/local/cpanel/etc/site_templates",
+  "description": "This website is under construction",
+  "title": "Evil Insult Generator",
+  "domain_url": "http://evilinsult.com",
+  "email_address": "YOUREMAILHERE"
+}

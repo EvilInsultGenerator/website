@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- age classification (age-label.com) -->
+<!-- label generator: age-label.com -->
+  <age-declaration>
+    <ageblock-basic>
+      <age-issuer>http://evilinsult.com/</age-issuer>
+      <last-change>2016-07-17</last-change>
+      <country>de</country>
+      <label-version>2.0</label-version>
+      <revisit-after>1days</revisit-after>
+    </ageblock-basic>
+    <ageblock-country>
+      <country class="age.xml">
+        <country-code>all</country-code>
+      </country>
+      <country-default>age.xml</country-default>
+    </ageblock-country>
+    <ageblock-labeltype>
+      <httpheader>false</httpheader>
+      <htmlmeta>false</htmlmeta>
+      <phraselabel>false</phraselabel>
+      <agesubmit>false</agesubmit>
+      <label-z>false</label-z>
+      <xmlfile>true</xmlfile>
+      <default-age>16</default-age>
+    </ageblock-labeltype>
+    <ageblock-labeltype-definition>
+      <labeltype-xmlfile>
+        <label class="website">
+          <age>16</age>
+          <scope>*.evilinsult.com/*</scope>
+        </label>
+      </labeltype-xmlfile>
+    </ageblock-labeltype-definition>
+  </age-declaration>
