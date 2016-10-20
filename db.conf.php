@@ -5,7 +5,7 @@ $dbconfig['base'] = 'YOURDB';
 $dbconfig['pass'] = 'YOURDBPASS';
 $dbconfig['char'] = 'utf8';
 $active_insult = 1;
-$sql_insult = "SELECT insult, createdby FROM insults WHERE language = :lang AND active = :active ORDER BY RAND() LIMIT 1";
+$sql_insult = "SELECT * FROM insults WHERE number >= RAND() * (SELECT MAX(number) FROM insults WHERE active = :active and language = :lang ) AND language = :lang AND active = :active ORDER BY number LIMIT 1";
 
 
 try {
