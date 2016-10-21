@@ -1,10 +1,11 @@
 <?php
 include 'db.conf.php';
-/*ini_set("display_errors", "1");
-error_reporting(E_ALL);*/
 if (empty($_GET['lang'])) {
-    // ?lang= leer
+    // empty $_GET['lang'] defaults to english
     $lang = "en";
+}
+else {
+	$lang = $_GET['lang'];
 }
 $lang = $_GET['lang'];
 $cLang = htmlentities($lang);
