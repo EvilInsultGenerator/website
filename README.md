@@ -10,6 +10,14 @@ via mail.
 This website should run fine on almost any webserver. We tested it with Apache and Nginx. At the moment we use MySQL as database.
 Configuration is done via the `db.conf.php` and front-end languages can be added through copying one of the existig files inside the `languages` directory and modifying the strings.
 
+### API
+
+The API is accessible via [https://evilinsult.com/generate_insult.php](https://evilinsult.com/generate_insult.php).
+
+It supports `plain text`, `XML` and `JSON`.
+
+Example for an English insult with [JSON](https://www.json.org/) output: [https://evilinsult.com/generate_insult.php?lang=en&type=json](https://evilinsult.com/generate_insult.php?lang=en&type=json)
+
 ### Contact
 
 We love to get in touch with you. Feel welcome to email your questions and feedback to [marvin@evilinsult.com](mailto:marvin@evilinsult.com).
