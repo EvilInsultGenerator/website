@@ -97,7 +97,7 @@ if (!isset($_COOKIE['lang'])) {
         var lang = "<?php echo $cLang; ?>";
         function Generate() {
             $.ajax({
-                url: "generate_insult.php?lang=" + lang,
+                url: "generate_insult.php?type=plain&lang=" + lang,
                 type: 'get',
                 success: function(response){
                     $('#generated_insult').html(response);
