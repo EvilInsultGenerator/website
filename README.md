@@ -18,6 +18,8 @@ It supports `plain text`, `XML` and `JSON`.
 
 Example for an English insult with [JSON](https://www.json.org/) output: [https://evilinsult.com/generate_insult.php?lang=en&type=json](https://evilinsult.com/generate_insult.php?lang=en&type=json)
 
+Status Page: [https://stats.uptimerobot.com/NLnZ8sVro](https://stats.uptimerobot.com/NLnZ8sVro)
+
 ### Contact
 
 We love to get in touch with you. Feel welcome to email your questions and feedback to [marvin@evilinsult.com](mailto:marvin@evilinsult.com).
