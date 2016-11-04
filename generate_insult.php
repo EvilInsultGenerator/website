@@ -34,6 +34,10 @@ if (empty($result)) {
     echo "****** **** *** ********";
 } else {
     $filtered = array_map('htmlspecialchars', array_map('stripslashes', $result));
+	$number=$filtered['number'];
+	$upcnt = $pdo->prepare($update_counter);
+	$upcnt->bindParam(':number', $number, PDO::PARAM_INT);
+	$upcnt->execute();
    switch ($type) {
     case "json":
       echo json_encode($filtered);
