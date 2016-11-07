@@ -1,4 +1,4 @@
-# Evil Insult Generator Website [![Website](https://img.shields.io/website-up-down-green-red/https/evilinsult.com.svg)]()
+# Evil Insult Generator Website [![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg)](https://evilinsult.com)
 
 Evil Insult Generator's goal is to offer the most evil insults. Please help us to reach this honorable purpose by submitting insults
 via mail.
