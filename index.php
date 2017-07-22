@@ -261,7 +261,7 @@ if (!isset($_COOKIE['lang'])) {
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
                 <h3 class="content-subhead">
                     <i class="fa fa-android fa-2x" aria-hidden="true"></i>
-                    <p><a href="https://play.google.com/store/apps" target="_blank"><?php echo $lang['ANDROID']; ?></a></p>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.evilinsult.android" target="_blank"><?php echo $lang['ANDROID']; ?></a></p>
                 </h3>
             </div>
 
