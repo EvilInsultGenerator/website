@@ -48,6 +48,9 @@ if (!isset($_COOKIE['lang'])) {
 <!-- Google Authorship und Google Publisher Markup --><br />
 <link rel="author" href="https://plus.google.com/u/0/113052456990347582881"/>
 <link rel="publisher" href="https://plus.google.com/u/0/100777169490609998162"/>
+    
+<!-- Telegram Channel -->    
+<meta name="telegram:channel" content=“@nameofthechannel”>
 <!-- RICH LINK OVER AND OUT -->
 
     <!-- jQuery -->
