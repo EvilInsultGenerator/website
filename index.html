@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+	<link rel="manifest" href="assets/ico/manifest.json">
+	<link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="assets/ico/favicon.ico">
+	<meta name="msapplication-config" content="assets/ico/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+    <title>Evil Insult Generator</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/abd1c21a1c.css">
+
+
+   
+
+</head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">EIG - Evil Insult Generator</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="https://.evilinsult.com">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#platforms">PLATFORMS</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<!-- *****************************************************************************************************************
+	 HEADERWRAP
+	 ***************************************************************************************************************** -->
+	<div id="headerwrap">
+	    <div class="container">
+		<img src="assets/img/eig_logo_128.png" class="img-fluid mx-auto d-block" alt="Evil Insult Generator Logo - Fuck!">
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h1 id="generated_insult"><i class="fa fa-hand-pointer-o" aria-hidden="false"></i>
+</h1>
+				</div>
+				<div class="col-lg-8 col-lg-offset-2 himg">
+				
+					<!-- <img src="assets/img/browser.png" class="img-responsive"> -->
+<div class="btn-group">
+  <button type="button" id="generate_insult" class="btn btn-primary btn-lg">Generate</button>
+  <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" id="lang-menu">
+    <li class="dropdown-header">Select a language</li>
+
+    <li value="en" class="langselect"><a href="#">English</a></li>
+    <li value="de" class="langselect"><a href="#">German</a></li>
+    <li value="es" class="langselect"><a href="#">Spanish</a></li>
+    <!-- <li role="separator" class="divider"></li>
+    <li  value="rand"><a href="#">Random</a></li> -->
+  </ul>
+</div>
+
+</div>
+				</div>
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /headerwrap -->
+
+	<!-- *****************************************************************************************************************
+	 SERVICE LOGOS
+	 ***************************************************************************************************************** -->
+	 <div id="service">
+	 	<div class="container">
+ 			<div class="row centered">
+ 				<div class="col-md-4">
+ 					<i class="fa fa-heart-o"></i>
+ 					<h4>Handsomely Crafted</h4>
+ 					<p>We have no idea what we are doing, but that doesn't stop us. You can check out our utter nonsense yourself.</p>
+ 					<p><br/><a href="https://github.com/EvilInsultGenerator?tab=repositories" class="btn btn-theme">Better not.</a></p>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<i class="fa fa-flask"></i>
+ 					<h4>Open Source</h4>
+ 					<p>All our pieces - Clients, bots, APi and even this site are Open Source and licensed under the <a href ="http://unlicense.org/" class="badge badge-info"><b>Unlicense</b></a></p>
+					<p>The source can be found at our <a href ="https://github.com/EvilInsultGenerator?tab=repositories">Github repositories</a></p>
+ 					<p><br/><a href="https://github.com/EvilInsultGenerator?tab=repositories" class="btn btn-theme">Show me</a></p>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<i class="fa fa-comments"></i>
+ 					<h4>We need your feedback</h4>
+ 					<p>At the moment we are in a growing phase - that means we are expanding our supported languages and try to grow the amount of insults per language. If you have suggestions or ideas, <a href="mailto:marvin@evilinsult.com">let us know.</a></p>
+ 					<p><br/><a href="mailto:marvin@evilinsult.com" class="btn btn-theme">Here we go!</a></p>
+ 				</div>		 				
+	 		</div>
+	 	</div><! --/container -->
+	 </div><! --/service -->
+	 
+	<!-- *****************************************************************************************************************
+	 PORTFOLIO SECTION
+	 ***************************************************************************************************************** -->
+	 <div id="portfoliowrap">
+        <h3><a id="platforms">We support:</a></h3>
+
+        <div class="portfolio-centered">
+            <div class="recentitems portfolio">
+			
+				<div class="portfolio-item client">
+					<div class="he-wrap tpl6">
+					<img src="assets/img/portfolio/on_googleplay.png" alt="Android App">
+						<div class="he-view">
+							<div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">Get our Android app on Google Play</h3>
+                                <a href="https://play.google.com/store/apps/details?id=com.evilinsult.android&utm_source=eigwebsite&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                        	</div><!-- he bg -->
+						</div><!-- he view -->		
+					</div><!-- he wrap -->
+				</div><!-- end col-12 -->
+               
+                <div class="portfolio-item client">
+                    <div class="he-wrap tpl6">
+					<img src="assets/img/portfolio/on_microsoft.png" alt="Universal App">
+						<div class="he-view">
+							<div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">Get our Universal App</h3>
+                                <a href="<a href="https://www.microsoft.com/store/apps/9NBLGGH4RRBR?ocid=badge" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                        	</div><!-- he bg -->
+						</div><!-- he view -->		
+					</div><!-- he wrap -->
+				</div><!-- end col-12 -->
+                     
+
+        
+                <div class="portfolio-item client">
+                    <div class="he-wrap tpl6">
+					<img src="assets/img/portfolio/on_desktop.png" alt="Desktop Client">
+						<div class="he-view">
+							<div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">Try our desktop client</h3>
+                                <a href="https://github.com/EvilInsultGenerator/c-sharp-desktop" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                        	</div><!-- he bg -->
+						</div><!-- he view -->		
+					</div><!-- he wrap -->
+				</div><!-- end col-12 -->
+				
+				
+				<div class="portfolio-item bot">
+                    <div class="he-wrap tpl6">
+					<img src="assets/img/portfolio/on_telegram.png" alt="Telegram Bot">
+						<div class="he-view">
+							<div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">Try our Telegram Bot</h3>
+                                <a href="https://telegram.me/EvilInsultGeneratorBot" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                        	</div><!-- he bg -->
+						</div><!-- he view -->		
+					</div><!-- he wrap -->
+				</div><!-- end col-12 -->      
+                
+                <div class="portfolio-item bot">
+                    <div class="he-wrap tpl6">
+					<img src="assets/img/portfolio/on_discord.png" alt="Discord Bot">
+						<div class="he-view">
+							<div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">Try our Discord Bot</h3>
+                                <a href="https://github.com/EvilInsultGenerator/discord-bot" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                        	</div><!-- he bg -->
+						</div><!-- he view -->		
+					</div><!-- he wrap -->
+				</div><!-- end col-12 -->
+                                        
+                <div class="portfolio-item bot">
+                    <div class="he-wrap tpl6">
+					<img src="assets/img/portfolio/on_slack.png" alt="Slack Bot">
+						<div class="he-view">
+							<div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">Try our Slack Bot</h3>
+                                <a href="https://github.com/EvilInsultGenerator/slack-bot" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                        	</div><!-- he bg -->
+						</div><!-- he view -->		
+					</div><!-- he wrap -->
+				</div><!-- end col-12 -->
+                    
+                <div class="portfolio-item bot">
+                    <div class="he-wrap tpl6">
+					<img src="assets/img/portfolio/on_facebook.png" alt="Facebook Bot">
+						<div class="he-view">
+							<div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">Try our Facebook Bot</h3>
+                                <a href="https://github.com/EvilInsultGenerator/facebook-bot" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                        	</div><!-- he bg -->
+						</div><!-- he view -->		
+					</div><!-- he wrap -->
+				</div><!-- end col-12 -->
+                    
+            </div><!-- portfolio -->
+        </div><!-- portfolio container -->
+	 </div><!--/Portfoliowrap -->
+	 
+	<!-- *****************************************************************************************************************
+	 FOOTER
+	 ***************************************************************************************************************** -->
+	 <div id="footerwrap">
+	 	<div class="container">
+		 	<div class="row">
+		 		<div class="col-lg-4">
+		 			<h4><a id="about">About</a></h4>
+		 			<div class="hline-w"></div>
+		 			<p>Evil Insult Generator goal is to offer the most evil insults. Please help us to reach this honorable purpose by submitting your insults.</p>
+		 		</div>
+		 		<div class="col-lg-4">
+		 			<h4>We are unsocial people</h4>
+		 			<div class="hline-w"></div>
+		 			<p>
+		 				<a href="https://www.facebook.com/EvilInsultGenerator/" target="_blank"><i class="fa fa-facebook"></i></a>
+		 				<a href="https://twitter.com/__E__I__G__" target="_blank"><i class="fa fa-twitter"></i></a>
+		 			</p>
+		 		</div>
+		 		<div class="col-lg-4">
+		 			<h4>Our Bunker</h4>
+		 			<div class="hline-w"></div>
+		 			<p>
+					Marvin Lozano<br />
+					3966 Wayback Lane<br />
+					10011 New York<br/>
+		 			</p>
+		 		</div>
+		 	
+		 	</div><! --/row -->
+	 	</div><! --/container -->
+	 </div><! --/footerwrap -->
+	 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/retina-1.1.0.js"></script>
+	<script src="assets/js/jquery.hoverdir.js"></script>
+	<script src="assets/js/jquery.hoverex.min.js"></script>
+	<script src="assets/js/jquery.prettyPhoto.js"></script>
+  	<script src="assets/js/jquery.isotope.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min.js"></script>
+  	<script src="assets/js/custom.js"></script>
+	<script type="text/javascript">
+        $(document).ready(function () {
+		
+			var insultlang = Cookies.get('insultlang');
+			if (insultlang == null){
+			Cookies.set('insultlang', 'en', { expires: 365 });
+			var insultlang = Cookies.get('insultlang');
+			}
+			
+            Generate()
+			$('#generate_insult').click(function() {
+			            Generate()
+			});
+$('#lang-menu li').click(function(){
+    var $this = $(this);
+    var selKeyVal = $this.attr("value");
+	var insultlang =  $this.attr("value");
+	Cookies.set('insultlang', insultlang, { expires: 365 });
+	Generate()
+
+	})
+
+        function Generate() {
+			var insultlang = Cookies.get('insultlang');
+            $.ajax({
+                url: "https://slave.evilinsult.com/generate_insult.php?type=plain&lang=" + insultlang,
+                type: 'get',
+                success: function(response){
+                    $('#generated_insult').html(response);
+                },
+                cache: false
+            });
+        }
+        });
+    </script>
+
+    <script>
+// Portfolio
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+		
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+				
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+		
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);   
+		}
+				
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+		
+		function getColumnNumber() { 
+			var winWidth = $(window).width(), 
+			columnNumber = 1;
+		
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}       
+			
+			function setColumns() {
+				var winWidth = $(window).width(), 
+				columnNumber = getColumnNumber(), 
+				itemWidth = Math.floor(winWidth / columnNumber);
+				
+				$container.find('.portfolio-item').each(function() { 
+					$(this).css( { 
+					width : itemWidth + 'px' 
+				});
+			});
+		}
+		
+		function setPortfolio() { 
+			setColumns();
+			$container.isotope('reLayout');
+		}
+			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
+		$(window).on('resize', function () { 
+		setPortfolio();          
+	});
+})(jQuery);
+</script>
+  </body>
+</html>
