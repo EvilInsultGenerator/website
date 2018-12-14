@@ -56,3 +56,8 @@ Translations are hosted on [Transifex](https://www.transifex.com/evil-insult-gen
 
 ### Screenshots
 ![Evil Insult Generator Website Screenshot](https://cloud.githubusercontent.com/assets/22981912/19605917/94fb962c-97be-11e6-9265-af1e50b45faf.png)
+
+### Credits
+
+I am deeply grateful that JetBrains sponsored two licenses of [WebStorm](https://www.jetbrains.com/webstorm/) [![WebStorm](https://user-images.githubusercontent.com/19539741/50024737-a1ae1680-ffe3-11e8-9cf7-382f0b896a62.png)](https://www.jetbrains.com/webstorm/) & [DataGrip](https://www.jetbrains.com/datagrip/) [![DataGrip](https://user-images.githubusercontent.com/19539741/50024751-af639c00-ffe3-11e8-85ee-fab77519d5de.png)](https://www.jetbrains.com/datagrip/)   
+    and that [PingPing](https://pingping.io/) [![PingPing](https://user-images.githubusercontent.com/19539741/50024864-05384400-ffe4-11e8-83f8-84e04508b0fb.png)](https://pingping.io/), [updown.io](https://updown.io/) [![updown.io](https://user-images.githubusercontent.com/19539741/50024835-f05bb080-ffe3-11e8-9211-c6e609cdabe4.png)](https://updown.io/) & [Uptime Robot](https://uptimerobot.com/) [![Uptime Robot](https://user-images.githubusercontent.com/19539741/50024737-a1ae1680-ffe3-11e8-9cf7-382f0b896a62.png)](https://uptimerobot.com/) offer free website monitoring.
