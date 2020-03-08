@@ -73,8 +73,7 @@
 		<img src="assets/img/eig_logo_128.png" class="img-fluid mx-auto d-block" alt="Evil Insult Generator Logo - Fuck!">
 			<div class="row">
 				<div class="col-lg-10 col-lg-offset-1">
-					<h1 id="generated_insult"><i class="fa fa-hand-pointer-o" aria-hidden="false"></i>
-</h1>
+					<h1 class="run-animation" id="generated_insult"><i class="fa fa-hand-pointer-o" aria-hidden="false"></i></h1>
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 himg">
 				
@@ -300,14 +299,19 @@ $('#lang-menu li').click(function(){
 
         function Generate() {
 			var insultlang = Cookies.get('insultlang');
+			element = document.getElementById("generated_insult");
             $.ajax({
                 url: "https://slave.evilinsult.com/generate_insult.php?type=plain&lang=" + insultlang,
                 type: 'get',
                 success: function(response){
-                    $('#generated_insult').html(response);
+					$('#generated_insult').html(response);
+					element.classList.remove("run-animation");
+					void element.offsetWidth;
+					// -> and re-adding the class
+					element.classList.add("run-animation");
                 },
                 cache: false
-            });
+			});
         }
         });
     </script>
