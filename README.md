@@ -7,7 +7,7 @@ via mail.
 
 ### Installation
 
-This website should run fine on almost any webserver. We tested it with Apache and Nginx. At the moment we use MySQL as database.
+This website should run fine on almost any webserver. We have tested it with Apache and Nginx. At the moment we use MySQL as database.
 Configuration is done via the `db.conf.php` and front-end languages can be added through copying one of the existig files inside the `languages` directory and modifying the strings.
 
 ### API
@@ -23,11 +23,11 @@ Status Page: [https://stats.uptimerobot.com/NLnZ8sVro](https://stats.uptimerobot
 ### Live
 You can view this website live on [https://evilinsult.com/](https://evilinsult.com/) or visit the [slave](https://slave.evilinsult.com/).
 
-By the way, only evil projects like this one should use terms like `slave` or `master`, normal projects should use [inclusive language](https://user-images.githubusercontent.com/19539741/86518890-65484280-be35-11ea-93bf-a03f73284208.png). 
+By the way, only evil projects like this one should use terms like `slave` or `master`, normal projects must use [inclusive language](https://user-images.githubusercontent.com/19539741/86518890-65484280-be35-11ea-93bf-a03f73284208.png). 
 
 ### Contact
 
-We love to get in touch with you. Feel welcome to email your questions and feedback to [marvin@evilinsult.com](mailto:marvin@evilinsult.com).
+We would love to get in touch with you. Feel welcomed to email your questions and feedback to [marvin@evilinsult.com](mailto:marvin@evilinsult.com).
 
 ### Translation
 
