@@ -1,16 +1,16 @@
-# Evil Insult Generator Website [![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg)](https://evilinsult.com)
+# Evil Insult Generator Website-[![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg)](https://evilinsult.com)
 
 Evil Insult Generator's goal is to offer the most evil insults. Please help us to reach this honorable purpose by submitting insults
 via mail.
 
 ![Evil Insult Generator Icon](https://cloud.githubusercontent.com/assets/22981912/19600664/5521d010-97a6-11e6-9f67-fec931b199d7.png)
 
-### Installation
+### Installation-
 
 This website should run fine on almost any webserver. We tested it with Apache and Nginx. At the moment we use MySQL as database.
 Configuration is done via the `db.conf.php` and front-end languages can be added through copying one of the existig files inside the `languages` directory and modifying the strings.
 
-### API
+### API-
 
 The API is accessible via [https://evilinsult.com/generate_insult.php](https://evilinsult.com/generate_insult.php).
 
@@ -20,20 +20,20 @@ Example for an English insult with [JSON](https://www.json.org/) output: [https:
 
 Status Page: [https://stats.uptimerobot.com/NLnZ8sVro](https://stats.uptimerobot.com/NLnZ8sVro)
 
-### Live
+### Live-
 You can view this website live on [https://evilinsult.com/](https://evilinsult.com/) or visit the [slave](https://slave.evilinsult.com/).
 
 By the way, only evil projects like this one should use terms like `slave` or `master`, normal projects should use [inclusive language](https://user-images.githubusercontent.com/19539741/86518890-65484280-be35-11ea-93bf-a03f73284208.png). 
 
-### Contact
+### Contact-
 
 We love to get in touch with you. Feel welcome to email your questions and feedback to [marvin@evilinsult.com](mailto:marvin@evilinsult.com).
 
-### Translation
+### Translation-
 
 Translations are hosted on [Transifex](https://www.transifex.com/evil-insult-generator/).
 
-### License
+### License application-
 > This is free and unencumbered software released into the public domain.
 > 
 > Anyone is free to copy, modify, publish, use, compile, sell, or
