@@ -504,6 +504,7 @@ csmall2 {
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
+    font-family: 'Architects Daughter', cursive;
 }
 .btn-primary {
     color: #fff;
