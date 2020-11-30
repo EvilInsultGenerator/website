@@ -47,6 +47,8 @@ if (empty($result)) {
     $upcnt->execute();
     switch ($type) {
         case "json":
+            Header('Content-type: application/json');
+            
             echo json_encode($filtered);
             break;
         case "plain":
