@@ -1,5 +1,9 @@
 <?php
 include 'db.conf.php';
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST');
+header("Access-Control-Allow-Headers: X-Requested-With");
+
 //function defination to convert array to xml
 function array_to_xml($array, &$xml_user_info)
 {
