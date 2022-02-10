@@ -31,7 +31,7 @@ We love to get in touch with you. Feel welcome to email your questions and feedb
 
 ### Translation
 
-Translations are hosted on [Transifex](https://www.transifex.com/evil-insult-generator/).
+Translations are hosted on [Crowdin](https://www.crowdin.com/) or [Hosted Weblate](https://hosted.weblate.org/).
 
 ### License
 > This is free and unencumbered software released into the public domain.
