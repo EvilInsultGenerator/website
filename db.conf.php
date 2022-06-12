@@ -6,7 +6,7 @@ $dbconfig['pass'] = 'YOURDBPASS';
 $dbconfig['char'] = 'utf8';
 $active_insult = 1;
 
-$sql_insult = "SELECT 
+/* $sql_insult = "SELECT 
     number,
     language,
     insult,
@@ -19,7 +19,13 @@ FROM insults
 WHERE number >= RAND() * (SELECT MAX(number) FROM insults WHERE active = :active and language = :lang ) 
     AND language = :lang 
     AND active = :active
-ORDER BY number LIMIT 1;
+ORDER BY number LIMIT 1; */
+
+$sql_insult = "SELECT 
+*
+FROM insults AND acitve= :active
+WHERE language= :lang 
+ORDER BY RAND() number LIMIT 1;
 ";
 
 $update_counter = "UPDATE insults SET shown = shown + 1 WHERE number = :number";
