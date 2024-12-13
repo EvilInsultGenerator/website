@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.evilinsult",
+      "sha256_cert_fingerprints": [
+        "39:25:5A:7F:42:78:98:24:FD:C8:57:58:43:9F:71:B8:11:4A:EB:B1:60:E6:3C:74:5D:8A:BB:16:D6:54:48:44"
+      ]
+    }
+  }
+]
